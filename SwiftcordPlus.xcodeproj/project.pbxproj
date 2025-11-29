@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DA76F7AC2EDBA5AE00EDA56A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DA76F7AA2EDBA5A900EDA56A /* LICENSE */; };
+		DA76F7AF2EDBA5BB00EDA56A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DA76F7AD2EDBA5B600EDA56A /* .gitignore */; };
+		DA76F7B22EDBA5D000EDA56A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA76F7B02EDBA5CA00EDA56A /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DA76F77F2EDBA43700EDA56A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,9 @@
 		DA76F7712EDBA43600EDA56A /* SwiftcordPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftcordPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA76F77E2EDBA43700EDA56A /* SwiftcordPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftcordPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA76F7882EDBA43700EDA56A /* SwiftcordPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftcordPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA76F7AA2EDBA5A900EDA56A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DA76F7AD2EDBA5B600EDA56A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DA76F7B02EDBA5CA00EDA56A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +88,9 @@
 				DA76F7812EDBA43700EDA56A /* SwiftcordPlusTests */,
 				DA76F78B2EDBA43700EDA56A /* SwiftcordPlusUITests */,
 				DA76F7722EDBA43600EDA56A /* Products */,
+				DA76F7AD2EDBA5B600EDA56A /* .gitignore */,
+				DA76F7AA2EDBA5A900EDA56A /* LICENSE */,
+				DA76F7B02EDBA5CA00EDA56A /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -226,6 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA76F7B22EDBA5D000EDA56A /* README.md in Resources */,
+				DA76F7AF2EDBA5BB00EDA56A /* .gitignore in Resources */,
+				DA76F7AC2EDBA5AE00EDA56A /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
