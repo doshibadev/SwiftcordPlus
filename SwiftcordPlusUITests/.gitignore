@@ -1,0 +1,39 @@
+# Xcode
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+Packages/
+*.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# CocoaPods (if used)
+Pods/
+
+# Carthage (if used)
+Carthage/Build/
+
+# Archives
+*.xcarchive
+
+# macOS
+.DS_Store
+
+# SwiftLint cache
+.swiftlint.yml
+
+# App icons and asset catalogs can stay; remove only temp files
+*.appiconset/Contents.json
+
+# User-specific Xcode files
+*.xcuserdatad
+
